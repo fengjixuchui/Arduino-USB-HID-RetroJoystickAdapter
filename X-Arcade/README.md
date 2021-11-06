@@ -26,7 +26,7 @@ CLK (white or purple) -> 2 (PD1)
 GND (black) -> GND
 
 ```
-#### Library
+### Library
 PS2KeyRaw
 
 Arduino Pro Micro (select Arduino Leonardo from Arduino IDE).
@@ -36,3 +36,10 @@ PS/2 keyboard not needed.
 Takes only about 10mA.
 
 
+## Linux: keyboard -> joystick
+- https://github.com/dmadison/ArduinoXInput
+- https://superuser.com/questions/837464/treat-usb-keyboard-as-gamepad
+- https://wiki.archlinux.org/title/Gamepad#Mimic_Xbox_360_controller_with_other_controllers
+
+## RetroPie / Keyboard
+- https://retropie.org.uk/forum/topic/8987/guide-setting-up-a-retropie-controls-using-ipac2-controller-extensive-tutorial-preconfigured-files
